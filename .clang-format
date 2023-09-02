@@ -71,11 +71,24 @@ SortIncludes: false
 # 允许重新排版注释
 ReflowComments: true
 
+<<<<<<< HEAD
+=======
+CommentPragmas: '* @FilePath:'
+
+>>>>>>> 07c4b6580523c2206e038f72687434edd881adb6
 # 指针和引用的对齐: Left, Right, Middle
 PointerAlignment: Right
 
 # 命名空间的缩进: None, Inner(缩进嵌套的命名空间中的内容), All
 NamespaceIndentation: None
 
+<<<<<<< HEAD
 # 具有特殊意义的注释的正则表达式，该注释不应该被分割为多行
 CommentPragmas: '* @FilePath:'
+=======
+# 对齐注释
+#; AlignTrailingComments: true
+
+# 具有特殊意义的注释的正则表达式，该注释不应该被分割为多行
+CommentPragmas: '* @FilePath:'
+>>>>>>> 07c4b6580523c2206e038f72687434edd881adb6
